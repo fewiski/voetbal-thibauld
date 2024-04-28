@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voetbalwebsite - Nieuws</title>
+    <style>
+        /* Stijlen voor opmaak (optioneel aan te passen) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1E90FF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .article {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .article h2 {
+            color: #333;
+        }
+        .article p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Voetbalwebsite</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="nieuws.html">Nieuws</a>
+    <a href="teams.html">Teams</a>
+    <a href="wedstrijden.html">Wedstrijden</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <div class="article">
+        <h2>Barcelona wint de Champions League</h2>
+        <p>
+            Barcelona heeft de Champions League gewonnen na een spannende finale tegen Bayern München. Lionel Messi scoorde het winnende doelpunt in de laatste minuut van de wedstrijd.
+        </p>
+        <p>
+            Het was een historische overwinning voor Barcelona, die hiermee voor de zesde keer de Champions League-trofee binnenhaalde. De spelers en fans vieren feest in de straten van Barcelona na deze gedenkwaardige prestatie.
+        </p>
+    </div>
+
+    <div class="article">
+        <h2>Nieuwe coach voor Real Madrid</h2>
+        <p>
+            Real Madrid heeft aangekondigd dat Zinedine Zidane terugkeert als hoofdcoach van het team. Na een teleurstellend seizoen onder de vorige coach, wordt Zidane gezien als de juiste persoon om het team weer naar succes te leiden.
+        </p>
+        <p>
+            Zidane heeft eerder succesvolle jaren gehad als coach van Real Madrid, met drie opeenvolgende Champions League-titels tijdens zijn vorige ambtstermijn. De fans zijn hoopvol dat hij het team weer naar de top kan brengen.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Voetbalwebsite. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+</html>
